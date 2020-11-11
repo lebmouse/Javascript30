@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.background {
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+.keys {
+    display: flex;
+    justify-content: center;
+}
+
+.keys1 {
+    margin-right: 100px;
+}
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-shadow: 0 0 5px black;
+    transition: all 0.07s;
+}
+.space1 {
+    margin-right: 60px;
+}
+.space2 {
+    margin-left: 60px;
+}
+kbd {
+    font-size: 25px;
+}
+
+span {
+    margin-top: 5px;
+    color: #ffc600;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
